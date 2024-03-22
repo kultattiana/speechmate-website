@@ -1,0 +1,455 @@
+[debug] [2024-03-18T11:23:12.416Z] ----------------------------------------------------------------------
+[debug] [2024-03-18T11:23:12.419Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nasyk\OneDrive\Документы\dub-nextjs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --project dev --import ./firebase-seed
+[debug] [2024-03-18T11:23:12.419Z] CLI Version:   13.4.1
+[debug] [2024-03-18T11:23:12.420Z] Platform:      win32
+[debug] [2024-03-18T11:23:12.420Z] Node Version:  v21.6.2
+[debug] [2024-03-18T11:23:12.420Z] Time:          Mon Mar 18 2024 14:23:12 GMT+0300 (Москва, стандартное время)
+[debug] [2024-03-18T11:23:12.420Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-18T11:23:12.489Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] Failed to authenticate, have you run firebase login?
+[warn] !  emulators: You are not currently authenticated so some features may not work correctly. Please run firebase login to authenticate the CLI. 
+[debug] [2024-03-18T11:23:12.808Z] java version "21.0.2" 2024-01-16 LTS
+
+[debug] [2024-03-18T11:23:12.808Z] Java(TM) SE Runtime Environment (build 21.0.2+13-LTS-58)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.2+13-LTS-58, mixed mode, sharing)
+
+[debug] [2024-03-18T11:23:12.830Z] Parsed Java major version: 21
+[info] i  emulators: Starting emulators: auth, functions, firestore, pubsub, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, pubsub, storage"}}
+[debug] [2024-03-18T11:23:12.851Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:23:12.851Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:23:12.852Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:23:12.852Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:23:12.852Z] [pubsub] Pub/Sub Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:23:12.852Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4003 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4003 instead."}}
+[debug] [2024-03-18T11:23:12.855Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8099}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4003},{"address":"::1","family":"IPv6","port":4003}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-03-18T11:23:12.873Z] [hub] writing locator at C:\Users\nasyk\AppData\Local\Temp\hub-audioland-dub-dev.json
+[debug] [2024-03-18T11:23:12.894Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:23:12.894Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:23:12.894Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8099}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4003},{"address":"::1","family":"IPv6","port":4003}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting\u001b[22m"}}
+[warn] !  functions: You are not signed in to the Firebase CLI. If you have authorized this machine using gcloud application-default credentials those may be discovered and used to access production services. {"metadata":{"emulator":{"name":"functions"},"message":"You are not signed in to the Firebase CLI. If you have authorized this machine using gcloud application-default credentials those may be discovered and used to access production services."}}
+[debug] [2024-03-18T11:23:12.898Z] > refreshing access token with scopes: []
+[debug] [2024-03-18T11:23:12.902Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-03-18T11:23:12.902Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-18T11:23:13.394Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-03-18T11:23:13.394Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-18T11:23:13.394Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/audioland-dub-dev/adminSdkConfig [none]
+[debug] [2024-03-18T11:23:13.520Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/audioland-dub-dev/adminSdkConfig 401
+[debug] [2024-03-18T11:23:13.521Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/audioland-dub-dev/adminSdkConfig {"error":{"code":401,"message":"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"CREDENTIALS_MISSING","domain":"googleapis.com","metadata":{"method":"google.firebase.service.v1beta1.FirebaseProjectService.GetAdminSdkConfig","service":"firebase.googleapis.com"}}]}}
+[debug] [2024-03-18T11:23:13.521Z] Failed to get Admin SDK config for audioland-dub-dev, falling back to cache Failed to get Admin SDK for Firebase project audioland-dub-dev. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project audioland-dub-dev. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":401,"message":"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"CREDENTIALS_MISSING","domain":"googleapis.com","metadata":{"method":"google.firebase.service.v1beta1.FirebaseProjectService.GetAdminSdkConfig","service":"firebase.googleapis.com"}}]}},"response":{"statusCode":401}},"exit":1,"message":"HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":401},"status":500}
+[warn] !  functions: Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect. {"metadata":{"emulator":{"name":"functions"},"message":"Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect."}}
+[info] i  firestore: Importing data from C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\firestore_export\firestore_export.overall_export_metadata {"metadata":{"emulator":{"name":"firestore"},"message":"Importing data from C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\firestore_export\\firestore_export.overall_export_metadata"}}
+[debug] [2024-03-18T11:23:13.533Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-18T11:23:13.533Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-03-18T11:23:13.533Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\nasyk\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.2.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","audioland-dub-dev","--seed_from_export","C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\firestore_export\\firestore_export.overall_export_metadata","--rules","C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\nasyk\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"audioland-dub-dev\",\"--seed_from_export\",\"C:\\\\Users\\\\nasyk\\\\OneDrive\\\\Документы\\\\dub-nextjs\\\\firebase-seed\\\\firestore_export\\\\firestore_export.overall_export_metadata\",\"--rules\",\"C:\\\\Users\\\\nasyk\\\\OneDrive\\\\Документы\\\\dub-nextjs\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[info] i  auth: Importing config from C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\auth_export\config.json {"metadata":{"emulator":{"name":"auth"},"message":"Importing config from C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\auth_export\\config.json"}}
+[info] i  auth: Importing accounts from C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\auth_export\accounts.json {"metadata":{"emulator":{"name":"auth"},"message":"Importing accounts from C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\auth_export\\accounts.json"}}
+[debug] [2024-03-18T11:23:24.272Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2024-03-18T11:23:24.272Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-18T11:23:24.272Z] Starting Pub/Sub Emulator with command {"binary":"C:\\Users\\nasyk\\.cache\\firebase\\emulators\\pubsub-emulator-0.7.1\\pubsub-emulator\\bin\\cloud-pubsub-emulator.bat","args":["--host=127.0.0.1","--port=8099"],"optionalArgs":["port","host"],"joinArgs":true} {"metadata":{"emulator":{"name":"pubsub"},"message":"Starting Pub/Sub Emulator with command {\"binary\":\"C:\\\\Users\\\\nasyk\\\\.cache\\\\firebase\\\\emulators\\\\pubsub-emulator-0.7.1\\\\pubsub-emulator\\\\bin\\\\cloud-pubsub-emulator.bat\",\"args\":[\"--host=127.0.0.1\",\"--port=8099\"],\"optionalArgs\":[\"port\",\"host\"],\"joinArgs\":true}"}}
+[info] i  pubsub: Pub/Sub Emulator logging to pubsub-debug.log {"metadata":{"emulator":{"name":"pubsub"},"message":"Pub/Sub Emulator logging to \u001b[1mpubsub-debug.log\u001b[22m"}}
+[debug] [2024-03-18T11:23:26.137Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-18T11:23:27.464Z] Temp file directory for storage emulator: C:\Users\nasyk\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\nasyk\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[warn] Could not find metadata directory at "C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\storage_export\metadata" and/or blobs directory at "C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\storage_export\blobs".
+[debug] [2024-03-18T11:23:27.474Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-18T11:23:27.474Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-18T11:23:27.474Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\nasyk\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\nasyk\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-18T11:23:27.601Z] Web / API server started at 127.0.0.1:4003
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4003\n"}}
+[debug] [2024-03-18T11:23:27.601Z] Web / API server started at ::1:4003
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4003\n"}}
+[info] i  functions: Watching "C:\Users\nasyk\OneDrive\Документы\dub-nextjs\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\functions\" for Cloud Functions..."}}
+[debug] [2024-03-18T11:23:27.749Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2024-03-18T11:23:29.570Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.6.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2024-03-18T11:23:29.570Z] Building nodejs source
+[debug] [2024-03-18T11:23:29.571Z] Failed to find version of module node: reached end of search path C:\Users\nasyk\OneDrive\Документы\dub-nextjs\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-03-18T11:23:29.573Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-03-18T11:23:29.581Z] Found firebase-functions binary at 'C:\Users\nasyk\OneDrive\Документы\dub-nextjs\node_modules\.bin\firebase-functions'
+[info] Serving at port 8100
+
+[debug] [2024-03-18T11:23:30.240Z] Got response from /__/functions.yaml {"endpoints":{"updateTranslatedProject":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"updateTranslatedProject"},"updateUserTokens":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"updateUserTokens"},"resetUserUsedTokens":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"scheduleTrigger":{"schedule":"* * * * *","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetrySeconds":null,"minBackoffSeconds":null,"maxBackoffSeconds":null},"timeZone":null},"entryPoint":"resetUserUsedTokens"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: updateTranslatedProject, updateUserTokens, resetUserUsedTokens. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: updateTranslatedProject, updateUserTokens, resetUserUsedTokens."}}
+[info] +  functions[us-central1-updateTranslatedProject]: http function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateTranslatedProject). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateTranslatedProject)."}}
+[info] +  functions[us-central1-updateUserTokens]: http function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateUserTokens). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateUserTokens)."}}
+[debug] [2024-03-18T11:23:30.278Z] addPubsubTrigger {"eventTrigger":{"eventType":"pubsub","resource":""}}
+[debug] [2024-03-18T11:23:30.279Z] [pubsub] addTrigger(firebase-schedule-resetUserUsedTokens, us-central1-resetUserUsedTokens-0, http)
+[debug] [2024-03-18T11:23:30.280Z] [pubsub] Creating topic: firebase-schedule-resetUserUsedTokens
+[debug] [2024-03-18T11:23:30.517Z] [pubsub] Creating sub for topic: firebase-schedule-resetUserUsedTokens
+[info] +  functions[us-central1-resetUserUsedTokens]: pubsub function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mpubsub\u001b[22m function initialized."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4003/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4003/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4003/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4003/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Pub/Sub        │ 127.0.0.1:8099 │ n/a                             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4003/storage   │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-18T11:24:09.967Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast [none]
+[debug] [2024-03-18T11:24:09.967Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"eventId":"24e0d777-6ec2-40d0-92ae-ebf19a5dce9d","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/audioland-dub-dev","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2024-03-18T11:24:09.966Z","data":{"uid":"aNkkdF6KpsNktlymsB9pFmBwi8KP","email":"nasykhova@mail.ru","emailVerified":false,"metadata":{"creationTime":"2024-03-18T11:24:09.964Z","lastSignInTime":"2024-03-18T11:24:09.964Z"},"customClaims":{},"providerData":[{"providerId":"password","email":"nasykhova@mail.ru","federatedId":"nasykhova@mail.ru","rawId":"nasykhova@mail.ru"}]}}
+[debug] [2024-03-18T11:24:09.977Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast 200
+[debug] [2024-03-18T11:24:09.977Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-03-18T11:43:24.046Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast [none]
+[debug] [2024-03-18T11:43:24.047Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"eventId":"1710762204046","timestamp":"2024-03-18T11:43:24.046Z","eventType":"google.storage.object.finalize","resource":{"service":"storage.googleapis.com","name":"projects/_/buckets/audioland-dub-rask/objects/aNkkdF6KpsNktlymsB9pFmBwi8KP/nrBvSqMmIOebFiblDtYR/test-video-1min.mp4","type":"storage#object"},"data":{"kind":"storage#object","name":"aNkkdF6KpsNktlymsB9pFmBwi8KP/nrBvSqMmIOebFiblDtYR/test-video-1min.mp4","bucket":"audioland-dub-rask","generation":"1710762203835","metageneration":"1","contentType":"video/mp4","timeCreated":"2024-03-18T11:43:23.835Z","updated":"2024-03-18T11:43:23.835Z","storageClass":"STANDARD","size":"3096493","md5Hash":"FbdOqN+gJmQMyVE4ovSnyQ==","etag":"u1mZPUmypTR7jQFpAVBhtaN4oYs","metadata":{"firebaseStorageDownloadTokens":"d39490e2-8577-4fcd-945d-a79db28151ea"},"crc32c":"S7jSdA==","timeStorageClassUpdated":"2024-03-18T11:43:23.835Z","id":"audioland-dub-rask/aNkkdF6KpsNktlymsB9pFmBwi8KP/nrBvSqMmIOebFiblDtYR/test-video-1min.mp4/1710762203835","selfLink":"http://127.0.0.1:9199/storage/v1/b/audioland-dub-rask/o/aNkkdF6KpsNktlymsB9pFmBwi8KP%2FnrBvSqMmIOebFiblDtYR%2Ftest-video-1min.mp4","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/audioland-dub-rask/o/aNkkdF6KpsNktlymsB9pFmBwi8KP%2FnrBvSqMmIOebFiblDtYR%2Ftest-video-1min.mp4?generation=1710762203835&alt=media"}}
+[debug] [2024-03-18T11:43:24.051Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast 200
+[debug] [2024-03-18T11:43:24.051Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-03-18T11:43:24.052Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast [none]
+[debug] [2024-03-18T11:43:24.052Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"specversion":"1.0","id":"4935ac32-2377-490c-8d21-26808fadb62e","type":"google.cloud.storage.object.v1.finalized","source":"//storage.googleapis.com/projects/_/buckets/audioland-dub-rask/objects/aNkkdF6KpsNktlymsB9pFmBwi8KP/nrBvSqMmIOebFiblDtYR/test-video-1min.mp4","time":"2024-03-18T11:43:23.835Z","data":{"kind":"storage#object","name":"aNkkdF6KpsNktlymsB9pFmBwi8KP/nrBvSqMmIOebFiblDtYR/test-video-1min.mp4","bucket":"audioland-dub-rask","generation":"1710762203835","metageneration":"1","contentType":"video/mp4","timeCreated":"2024-03-18T11:43:23.835Z","updated":"2024-03-18T11:43:23.835Z","storageClass":"STANDARD","size":"3096493","md5Hash":"FbdOqN+gJmQMyVE4ovSnyQ==","etag":"u1mZPUmypTR7jQFpAVBhtaN4oYs","metadata":{"firebaseStorageDownloadTokens":"d39490e2-8577-4fcd-945d-a79db28151ea"},"crc32c":"S7jSdA==","timeStorageClassUpdated":"2024-03-18T11:43:23.835Z","id":"audioland-dub-rask/aNkkdF6KpsNktlymsB9pFmBwi8KP/nrBvSqMmIOebFiblDtYR/test-video-1min.mp4/1710762203835","selfLink":"http://127.0.0.1:9199/storage/v1/b/audioland-dub-rask/o/aNkkdF6KpsNktlymsB9pFmBwi8KP%2FnrBvSqMmIOebFiblDtYR%2Ftest-video-1min.mp4","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/audioland-dub-rask/o/aNkkdF6KpsNktlymsB9pFmBwi8KP%2FnrBvSqMmIOebFiblDtYR%2Ftest-video-1min.mp4?generation=1710762203835&alt=media"}}
+[debug] [2024-03-18T11:43:24.056Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast 200
+[debug] [2024-03-18T11:43:24.057Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-03-18T11:48:23.481Z] ----------------------------------------------------------------------
+[debug] [2024-03-18T11:48:23.485Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nasyk\OneDrive\Документы\dub-nextjs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --project dev --import ./firebase-seed
+[debug] [2024-03-18T11:48:23.485Z] CLI Version:   13.4.1
+[debug] [2024-03-18T11:48:23.486Z] Platform:      win32
+[debug] [2024-03-18T11:48:23.486Z] Node Version:  v21.6.2
+[debug] [2024-03-18T11:48:23.486Z] Time:          Mon Mar 18 2024 14:48:23 GMT+0300 (Москва, стандартное время)
+[debug] [2024-03-18T11:48:23.486Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-18T11:48:23.590Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] Failed to authenticate, have you run firebase login?
+[warn] !  emulators: You are not currently authenticated so some features may not work correctly. Please run firebase login to authenticate the CLI. 
+[debug] [2024-03-18T11:48:23.792Z] java version "21.0.2" 2024-01-16 LTS
+
+[debug] [2024-03-18T11:48:23.793Z] Java(TM) SE Runtime Environment (build 21.0.2+13-LTS-58)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.2+13-LTS-58, mixed mode, sharing)
+
+[debug] [2024-03-18T11:48:23.821Z] Parsed Java major version: 21
+[info] i  emulators: Starting emulators: auth, functions, firestore, pubsub, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, pubsub, storage"}}
+[debug] [2024-03-18T11:48:23.840Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:48:23.840Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:48:23.841Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:48:23.841Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:48:23.841Z] [pubsub] Pub/Sub Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:48:23.841Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4004 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4004 instead."}}
+[debug] [2024-03-18T11:48:23.845Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8099}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4004},{"address":"::1","family":"IPv6","port":4004}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project audioland-dub-dev. This may result in unexpected behavior. 
+[debug] [2024-03-18T11:48:23.869Z] [hub] writing locator at C:\Users\nasyk\AppData\Local\Temp\hub-audioland-dub-dev.json
+[debug] [2024-03-18T11:48:23.880Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:48:23.881Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T11:48:23.881Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8099}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4004},{"address":"::1","family":"IPv6","port":4004}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting\u001b[22m"}}
+[warn] !  functions: You are not signed in to the Firebase CLI. If you have authorized this machine using gcloud application-default credentials those may be discovered and used to access production services. {"metadata":{"emulator":{"name":"functions"},"message":"You are not signed in to the Firebase CLI. If you have authorized this machine using gcloud application-default credentials those may be discovered and used to access production services."}}
+[debug] [2024-03-18T11:48:23.884Z] > refreshing access token with scopes: []
+[debug] [2024-03-18T11:48:23.886Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-03-18T11:48:23.886Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-18T11:48:24.083Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-03-18T11:48:24.083Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-18T11:48:24.083Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/audioland-dub-dev/adminSdkConfig [none]
+[debug] [2024-03-18T11:48:24.213Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/audioland-dub-dev/adminSdkConfig 401
+[debug] [2024-03-18T11:48:24.213Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/audioland-dub-dev/adminSdkConfig {"error":{"code":401,"message":"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"CREDENTIALS_MISSING","domain":"googleapis.com","metadata":{"method":"google.firebase.service.v1beta1.FirebaseProjectService.GetAdminSdkConfig","service":"firebase.googleapis.com"}}]}}
+[debug] [2024-03-18T11:48:24.213Z] Failed to get Admin SDK config for audioland-dub-dev, falling back to cache Failed to get Admin SDK for Firebase project audioland-dub-dev. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project audioland-dub-dev. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":401,"message":"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"CREDENTIALS_MISSING","domain":"googleapis.com","metadata":{"method":"google.firebase.service.v1beta1.FirebaseProjectService.GetAdminSdkConfig","service":"firebase.googleapis.com"}}]}},"response":{"statusCode":401}},"exit":1,"message":"HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":401},"status":500}
+[warn] !  functions: Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect. {"metadata":{"emulator":{"name":"functions"},"message":"Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect."}}
+[info] i  firestore: Importing data from C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\firestore_export\firestore_export.overall_export_metadata {"metadata":{"emulator":{"name":"firestore"},"message":"Importing data from C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\firestore_export\\firestore_export.overall_export_metadata"}}
+[debug] [2024-03-18T11:48:24.223Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-18T11:48:24.224Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-03-18T11:48:24.224Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\nasyk\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.2.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","audioland-dub-dev","--seed_from_export","C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\firestore_export\\firestore_export.overall_export_metadata","--rules","C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\nasyk\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"audioland-dub-dev\",\"--seed_from_export\",\"C:\\\\Users\\\\nasyk\\\\OneDrive\\\\Документы\\\\dub-nextjs\\\\firebase-seed\\\\firestore_export\\\\firestore_export.overall_export_metadata\",\"--rules\",\"C:\\\\Users\\\\nasyk\\\\OneDrive\\\\Документы\\\\dub-nextjs\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[info] i  auth: Importing config from C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\auth_export\config.json {"metadata":{"emulator":{"name":"auth"},"message":"Importing config from C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\auth_export\\config.json"}}
+[info] i  auth: Importing accounts from C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\auth_export\accounts.json {"metadata":{"emulator":{"name":"auth"},"message":"Importing accounts from C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\auth_export\\accounts.json"}}
+[debug] [2024-03-18T11:48:33.799Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2024-03-18T11:48:33.799Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-18T11:48:33.799Z] Starting Pub/Sub Emulator with command {"binary":"C:\\Users\\nasyk\\.cache\\firebase\\emulators\\pubsub-emulator-0.7.1\\pubsub-emulator\\bin\\cloud-pubsub-emulator.bat","args":["--host=127.0.0.1","--port=8099"],"optionalArgs":["port","host"],"joinArgs":true} {"metadata":{"emulator":{"name":"pubsub"},"message":"Starting Pub/Sub Emulator with command {\"binary\":\"C:\\\\Users\\\\nasyk\\\\.cache\\\\firebase\\\\emulators\\\\pubsub-emulator-0.7.1\\\\pubsub-emulator\\\\bin\\\\cloud-pubsub-emulator.bat\",\"args\":[\"--host=127.0.0.1\",\"--port=8099\"],\"optionalArgs\":[\"port\",\"host\"],\"joinArgs\":true}"}}
+[info] i  pubsub: Pub/Sub Emulator logging to pubsub-debug.log {"metadata":{"emulator":{"name":"pubsub"},"message":"Pub/Sub Emulator logging to \u001b[1mpubsub-debug.log\u001b[22m"}}
+[debug] [2024-03-18T11:48:35.805Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-18T11:48:37.045Z] Temp file directory for storage emulator: C:\Users\nasyk\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\nasyk\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[warn] Could not find metadata directory at "C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\storage_export\metadata" and/or blobs directory at "C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\storage_export\blobs".
+[debug] [2024-03-18T11:48:37.056Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-18T11:48:37.056Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-18T11:48:37.056Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\nasyk\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\nasyk\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-18T11:48:37.197Z] Web / API server started at 127.0.0.1:4004
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4004\n"}}
+[debug] [2024-03-18T11:48:37.197Z] Web / API server started at ::1:4004
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4004\n"}}
+[info] i  functions: Watching "C:\Users\nasyk\OneDrive\Документы\dub-nextjs\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\functions\" for Cloud Functions..."}}
+[debug] [2024-03-18T11:48:37.328Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2024-03-18T11:48:39.852Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.6.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2024-03-18T11:48:39.852Z] Building nodejs source
+[debug] [2024-03-18T11:48:39.853Z] Failed to find version of module node: reached end of search path C:\Users\nasyk\OneDrive\Документы\dub-nextjs\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-03-18T11:48:39.855Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-03-18T11:48:39.862Z] Found firebase-functions binary at 'C:\Users\nasyk\OneDrive\Документы\dub-nextjs\node_modules\.bin\firebase-functions'
+[info] Serving at port 8101
+
+[debug] [2024-03-18T11:48:40.529Z] Got response from /__/functions.yaml {"endpoints":{"updateTranslatedProject":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"updateTranslatedProject"},"updateUserTokens":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"updateUserTokens"},"resetUserUsedTokens":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"scheduleTrigger":{"schedule":"* * * * *","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetrySeconds":null,"minBackoffSeconds":null,"maxBackoffSeconds":null},"timeZone":null},"entryPoint":"resetUserUsedTokens"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: updateTranslatedProject, updateUserTokens, resetUserUsedTokens. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: updateTranslatedProject, updateUserTokens, resetUserUsedTokens."}}
+[info] +  functions[us-central1-updateTranslatedProject]: http function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateTranslatedProject). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateTranslatedProject)."}}
+[info] +  functions[us-central1-updateUserTokens]: http function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateUserTokens). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateUserTokens)."}}
+[debug] [2024-03-18T11:48:40.557Z] addPubsubTrigger {"eventTrigger":{"eventType":"pubsub","resource":""}}
+[debug] [2024-03-18T11:48:40.557Z] [pubsub] addTrigger(firebase-schedule-resetUserUsedTokens, us-central1-resetUserUsedTokens-0, http)
+[debug] [2024-03-18T11:48:40.558Z] [pubsub] Creating topic: firebase-schedule-resetUserUsedTokens
+[debug] [2024-03-18T11:48:40.748Z] [pubsub] Creating sub for topic: firebase-schedule-resetUserUsedTokens
+[info] +  functions[us-central1-resetUserUsedTokens]: pubsub function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mpubsub\u001b[22m function initialized."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4004/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4004/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4004/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4004/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Pub/Sub        │ 127.0.0.1:8099 │ n/a                             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4004/storage   │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-18T11:49:44.324Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast [none]
+[debug] [2024-03-18T11:49:44.324Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"eventId":"43f3ca76-09bd-47b7-90c4-1022b70f2bc2","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/audioland-dub-dev","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2024-03-18T11:49:44.323Z","data":{"uid":"uNV6tcBHBO5iS4OurUgKehMX770Q","email":"nasykhova@mail.ru","emailVerified":false,"metadata":{"creationTime":"2024-03-18T11:49:44.322Z","lastSignInTime":"2024-03-18T11:49:44.322Z"},"customClaims":{},"providerData":[{"providerId":"password","email":"nasykhova@mail.ru","federatedId":"nasykhova@mail.ru","rawId":"nasykhova@mail.ru"}]}}
+[debug] [2024-03-18T11:49:44.335Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast 200
+[debug] [2024-03-18T11:49:44.335Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-03-18T11:50:32.341Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast [none]
+[debug] [2024-03-18T11:50:32.341Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"eventId":"1710762632341","timestamp":"2024-03-18T11:50:32.341Z","eventType":"google.storage.object.finalize","resource":{"service":"storage.googleapis.com","name":"projects/_/buckets/audioland-dub-rask/objects/uNV6tcBHBO5iS4OurUgKehMX770Q/qT58WYHJxhWTUFcECeCH/test-video-1min.mp4","type":"storage#object"},"data":{"kind":"storage#object","name":"uNV6tcBHBO5iS4OurUgKehMX770Q/qT58WYHJxhWTUFcECeCH/test-video-1min.mp4","bucket":"audioland-dub-rask","generation":"1710762632131","metageneration":"1","contentType":"video/mp4","timeCreated":"2024-03-18T11:50:32.132Z","updated":"2024-03-18T11:50:32.132Z","storageClass":"STANDARD","size":"3096493","md5Hash":"FbdOqN+gJmQMyVE4ovSnyQ==","etag":"NknG2VhsBTi+E6z4QRksXSd/tes","metadata":{"firebaseStorageDownloadTokens":"acdc1e39-3677-4650-9bcb-95958b55d90f"},"crc32c":"S7jSdA==","timeStorageClassUpdated":"2024-03-18T11:50:32.132Z","id":"audioland-dub-rask/uNV6tcBHBO5iS4OurUgKehMX770Q/qT58WYHJxhWTUFcECeCH/test-video-1min.mp4/1710762632131","selfLink":"http://127.0.0.1:9199/storage/v1/b/audioland-dub-rask/o/uNV6tcBHBO5iS4OurUgKehMX770Q%2FqT58WYHJxhWTUFcECeCH%2Ftest-video-1min.mp4","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/audioland-dub-rask/o/uNV6tcBHBO5iS4OurUgKehMX770Q%2FqT58WYHJxhWTUFcECeCH%2Ftest-video-1min.mp4?generation=1710762632131&alt=media"}}
+[debug] [2024-03-18T11:50:32.347Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast 200
+[debug] [2024-03-18T11:50:32.347Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-03-18T11:50:32.347Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast [none]
+[debug] [2024-03-18T11:50:32.348Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"specversion":"1.0","id":"f1616bdd-7e04-4733-9681-8dbf8f484aa2","type":"google.cloud.storage.object.v1.finalized","source":"//storage.googleapis.com/projects/_/buckets/audioland-dub-rask/objects/uNV6tcBHBO5iS4OurUgKehMX770Q/qT58WYHJxhWTUFcECeCH/test-video-1min.mp4","time":"2024-03-18T11:50:32.132Z","data":{"kind":"storage#object","name":"uNV6tcBHBO5iS4OurUgKehMX770Q/qT58WYHJxhWTUFcECeCH/test-video-1min.mp4","bucket":"audioland-dub-rask","generation":"1710762632131","metageneration":"1","contentType":"video/mp4","timeCreated":"2024-03-18T11:50:32.132Z","updated":"2024-03-18T11:50:32.132Z","storageClass":"STANDARD","size":"3096493","md5Hash":"FbdOqN+gJmQMyVE4ovSnyQ==","etag":"NknG2VhsBTi+E6z4QRksXSd/tes","metadata":{"firebaseStorageDownloadTokens":"acdc1e39-3677-4650-9bcb-95958b55d90f"},"crc32c":"S7jSdA==","timeStorageClassUpdated":"2024-03-18T11:50:32.132Z","id":"audioland-dub-rask/uNV6tcBHBO5iS4OurUgKehMX770Q/qT58WYHJxhWTUFcECeCH/test-video-1min.mp4/1710762632131","selfLink":"http://127.0.0.1:9199/storage/v1/b/audioland-dub-rask/o/uNV6tcBHBO5iS4OurUgKehMX770Q%2FqT58WYHJxhWTUFcECeCH%2Ftest-video-1min.mp4","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/audioland-dub-rask/o/uNV6tcBHBO5iS4OurUgKehMX770Q%2FqT58WYHJxhWTUFcECeCH%2Ftest-video-1min.mp4?generation=1710762632131&alt=media"}}
+[debug] [2024-03-18T11:50:32.352Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast 200
+[debug] [2024-03-18T11:50:32.352Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-03-18T14:44:42.882Z] ----------------------------------------------------------------------
+[debug] [2024-03-18T14:44:42.886Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nasyk\OneDrive\Документы\dub-nextjs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --project dev --import ./firebase-seed
+[debug] [2024-03-18T14:44:42.886Z] CLI Version:   13.4.1
+[debug] [2024-03-18T14:44:42.886Z] Platform:      win32
+[debug] [2024-03-18T14:44:42.887Z] Node Version:  v21.6.2
+[debug] [2024-03-18T14:44:42.887Z] Time:          Mon Mar 18 2024 17:44:42 GMT+0300 (Москва, стандартное время)
+[debug] [2024-03-18T14:44:42.887Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-18T14:44:42.976Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] Failed to authenticate, have you run firebase login?
+[warn] !  emulators: You are not currently authenticated so some features may not work correctly. Please run firebase login to authenticate the CLI. 
+[debug] [2024-03-18T14:44:43.198Z] java version "21.0.2" 2024-01-16 LTS
+
+[debug] [2024-03-18T14:44:43.199Z] Java(TM) SE Runtime Environment (build 21.0.2+13-LTS-58)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.2+13-LTS-58, mixed mode, sharing)
+
+[debug] [2024-03-18T14:44:43.230Z] Parsed Java major version: 21
+[info] i  emulators: Starting emulators: auth, functions, firestore, pubsub, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, pubsub, storage"}}
+[debug] [2024-03-18T14:44:43.251Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T14:44:43.251Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T14:44:43.252Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T14:44:43.252Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T14:44:43.252Z] [pubsub] Pub/Sub Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T14:44:43.252Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4005 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4005 instead."}}
+[debug] [2024-03-18T14:44:43.255Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8099}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4005},{"address":"::1","family":"IPv6","port":4005}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project audioland-dub-dev. This may result in unexpected behavior. 
+[debug] [2024-03-18T14:44:43.278Z] [hub] writing locator at C:\Users\nasyk\AppData\Local\Temp\hub-audioland-dub-dev.json
+[debug] [2024-03-18T14:44:43.294Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T14:44:43.294Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-18T14:44:43.294Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8099}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4005},{"address":"::1","family":"IPv6","port":4005}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting\u001b[22m"}}
+[warn] !  functions: You are not signed in to the Firebase CLI. If you have authorized this machine using gcloud application-default credentials those may be discovered and used to access production services. {"metadata":{"emulator":{"name":"functions"},"message":"You are not signed in to the Firebase CLI. If you have authorized this machine using gcloud application-default credentials those may be discovered and used to access production services."}}
+[debug] [2024-03-18T14:44:43.298Z] > refreshing access token with scopes: []
+[debug] [2024-03-18T14:44:43.301Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-03-18T14:44:43.301Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-18T14:44:43.491Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-03-18T14:44:43.491Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-18T14:44:43.492Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/audioland-dub-dev/adminSdkConfig [none]
+[debug] [2024-03-18T14:44:43.595Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/audioland-dub-dev/adminSdkConfig 401
+[debug] [2024-03-18T14:44:43.596Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/audioland-dub-dev/adminSdkConfig {"error":{"code":401,"message":"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"CREDENTIALS_MISSING","domain":"googleapis.com","metadata":{"service":"firebase.googleapis.com","method":"google.firebase.service.v1beta1.FirebaseProjectService.GetAdminSdkConfig"}}]}}
+[debug] [2024-03-18T14:44:43.596Z] Failed to get Admin SDK config for audioland-dub-dev, falling back to cache Failed to get Admin SDK for Firebase project audioland-dub-dev. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project audioland-dub-dev. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":401,"message":"Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"CREDENTIALS_MISSING","domain":"googleapis.com","metadata":{"service":"firebase.googleapis.com","method":"google.firebase.service.v1beta1.FirebaseProjectService.GetAdminSdkConfig"}}]}},"response":{"statusCode":401}},"exit":1,"message":"HTTP Error: 401, Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":401},"status":500}
+[warn] !  functions: Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect. {"metadata":{"emulator":{"name":"functions"},"message":"Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect."}}
+[info] i  firestore: Importing data from C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\firestore_export\firestore_export.overall_export_metadata {"metadata":{"emulator":{"name":"firestore"},"message":"Importing data from C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\firestore_export\\firestore_export.overall_export_metadata"}}
+[debug] [2024-03-18T14:44:43.605Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-18T14:44:43.605Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-03-18T14:44:43.606Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\nasyk\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.2.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","audioland-dub-dev","--seed_from_export","C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\firestore_export\\firestore_export.overall_export_metadata","--rules","C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\nasyk\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"audioland-dub-dev\",\"--seed_from_export\",\"C:\\\\Users\\\\nasyk\\\\OneDrive\\\\Документы\\\\dub-nextjs\\\\firebase-seed\\\\firestore_export\\\\firestore_export.overall_export_metadata\",\"--rules\",\"C:\\\\Users\\\\nasyk\\\\OneDrive\\\\Документы\\\\dub-nextjs\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[info] i  auth: Importing config from C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\auth_export\config.json {"metadata":{"emulator":{"name":"auth"},"message":"Importing config from C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\auth_export\\config.json"}}
+[info] i  auth: Importing accounts from C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\auth_export\accounts.json {"metadata":{"emulator":{"name":"auth"},"message":"Importing accounts from C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\firebase-seed\\auth_export\\accounts.json"}}
+[debug] [2024-03-18T14:44:52.675Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2024-03-18T14:44:52.675Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"pubsub"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-18T14:44:52.675Z] Starting Pub/Sub Emulator with command {"binary":"C:\\Users\\nasyk\\.cache\\firebase\\emulators\\pubsub-emulator-0.7.1\\pubsub-emulator\\bin\\cloud-pubsub-emulator.bat","args":["--host=127.0.0.1","--port=8099"],"optionalArgs":["port","host"],"joinArgs":true} {"metadata":{"emulator":{"name":"pubsub"},"message":"Starting Pub/Sub Emulator with command {\"binary\":\"C:\\\\Users\\\\nasyk\\\\.cache\\\\firebase\\\\emulators\\\\pubsub-emulator-0.7.1\\\\pubsub-emulator\\\\bin\\\\cloud-pubsub-emulator.bat\",\"args\":[\"--host=127.0.0.1\",\"--port=8099\"],\"optionalArgs\":[\"port\",\"host\"],\"joinArgs\":true}"}}
+[info] i  pubsub: Pub/Sub Emulator logging to pubsub-debug.log {"metadata":{"emulator":{"name":"pubsub"},"message":"Pub/Sub Emulator logging to \u001b[1mpubsub-debug.log\u001b[22m"}}
+[debug] [2024-03-18T14:44:54.894Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-18T14:44:56.216Z] Temp file directory for storage emulator: C:\Users\nasyk\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\nasyk\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[warn] Could not find metadata directory at "C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\storage_export\metadata" and/or blobs directory at "C:\Users\nasyk\OneDrive\Документы\dub-nextjs\firebase-seed\storage_export\blobs".
+[debug] [2024-03-18T14:44:56.226Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-18T14:44:56.226Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-18T14:44:56.226Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\nasyk\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\nasyk\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-18T14:44:56.356Z] Web / API server started at 127.0.0.1:4005
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4005\n"}}
+[debug] [2024-03-18T14:44:56.356Z] Web / API server started at ::1:4005
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4005\n"}}
+[info] i  functions: Watching "C:\Users\nasyk\OneDrive\Документы\dub-nextjs\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\nasyk\\OneDrive\\Документы\\dub-nextjs\\functions\" for Cloud Functions..."}}
+[debug] [2024-03-18T14:44:56.502Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2024-03-18T14:44:59.358Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.6.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2024-03-18T14:44:59.360Z] Building nodejs source
+[debug] [2024-03-18T14:44:59.363Z] Failed to find version of module node: reached end of search path C:\Users\nasyk\OneDrive\Документы\dub-nextjs\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-03-18T14:44:59.385Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-03-18T14:44:59.419Z] Found firebase-functions binary at 'C:\Users\nasyk\OneDrive\Документы\dub-nextjs\node_modules\.bin\firebase-functions'
+[info] Serving at port 8324
+
+[debug] [2024-03-18T14:45:00.638Z] Got response from /__/functions.yaml {"endpoints":{"updateTranslatedProject":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"updateTranslatedProject"},"updateUserTokens":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"updateUserTokens"},"resetUserUsedTokens":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"scheduleTrigger":{"schedule":"* * * * *","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetrySeconds":null,"minBackoffSeconds":null,"maxBackoffSeconds":null},"timeZone":null},"entryPoint":"resetUserUsedTokens"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: updateTranslatedProject, updateUserTokens, resetUserUsedTokens. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: updateTranslatedProject, updateUserTokens, resetUserUsedTokens."}}
+[info] +  functions[us-central1-updateTranslatedProject]: http function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateTranslatedProject). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateTranslatedProject)."}}
+[info] +  functions[us-central1-updateUserTokens]: http function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateUserTokens). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/audioland-dub-dev/us-central1/updateUserTokens)."}}
+[debug] [2024-03-18T14:45:00.677Z] addPubsubTrigger {"eventTrigger":{"eventType":"pubsub","resource":""}}
+[debug] [2024-03-18T14:45:00.677Z] [pubsub] addTrigger(firebase-schedule-resetUserUsedTokens, us-central1-resetUserUsedTokens-0, http)
+[debug] [2024-03-18T14:45:00.678Z] [pubsub] Creating topic: firebase-schedule-resetUserUsedTokens
+[debug] [2024-03-18T14:45:00.985Z] [pubsub] Creating sub for topic: firebase-schedule-resetUserUsedTokens
+[info] +  functions[us-central1-resetUserUsedTokens]: pubsub function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mpubsub\u001b[22m function initialized."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4005/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4005/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4005/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4005/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Pub/Sub        │ 127.0.0.1:8099 │ n/a                             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4005/storage   │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-18T14:45:35.646Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast [none]
+[debug] [2024-03-18T14:45:35.646Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"eventId":"faebf809-a024-4722-b9de-28efef378337","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/audioland-dub-dev","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2024-03-18T14:45:35.646Z","data":{"uid":"1ONhF46yI9DhGyGvuW9yZUGu8b0i","email":"nasykhova@mail.ru","emailVerified":false,"metadata":{"creationTime":"2024-03-18T14:45:35.644Z","lastSignInTime":"2024-03-18T14:45:35.644Z"},"customClaims":{},"providerData":[{"providerId":"password","email":"nasykhova@mail.ru","federatedId":"nasykhova@mail.ru","rawId":"nasykhova@mail.ru"}]}}
+[debug] [2024-03-18T14:45:35.656Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast 200
+[debug] [2024-03-18T14:45:35.656Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-03-18T14:46:23.185Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast [none]
+[debug] [2024-03-18T14:46:23.186Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"eventId":"1710773183184","timestamp":"2024-03-18T14:46:23.184Z","eventType":"google.storage.object.finalize","resource":{"service":"storage.googleapis.com","name":"projects/_/buckets/audioland-dub-dev/objects/1ONhF46yI9DhGyGvuW9yZUGu8b0i/4Hlaf96UNlhRrzFp6aCc/test-video-1min.mp4","type":"storage#object"},"data":{"kind":"storage#object","name":"1ONhF46yI9DhGyGvuW9yZUGu8b0i/4Hlaf96UNlhRrzFp6aCc/test-video-1min.mp4","bucket":"audioland-dub-dev","generation":"1710773182997","metageneration":"1","contentType":"video/mp4","timeCreated":"2024-03-18T14:46:22.997Z","updated":"2024-03-18T14:46:22.997Z","storageClass":"STANDARD","size":"3096493","md5Hash":"FbdOqN+gJmQMyVE4ovSnyQ==","etag":"qqnBJeCyMQMpgc+XT8KSnXbIPeg","metadata":{"firebaseStorageDownloadTokens":"49770f76-0bed-4668-a51f-d10cf26eda6d"},"crc32c":"S7jSdA==","timeStorageClassUpdated":"2024-03-18T14:46:22.997Z","id":"audioland-dub-dev/1ONhF46yI9DhGyGvuW9yZUGu8b0i/4Hlaf96UNlhRrzFp6aCc/test-video-1min.mp4/1710773182997","selfLink":"http://127.0.0.1:9199/storage/v1/b/audioland-dub-dev/o/1ONhF46yI9DhGyGvuW9yZUGu8b0i%2F4Hlaf96UNlhRrzFp6aCc%2Ftest-video-1min.mp4","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/audioland-dub-dev/o/1ONhF46yI9DhGyGvuW9yZUGu8b0i%2F4Hlaf96UNlhRrzFp6aCc%2Ftest-video-1min.mp4?generation=1710773182997&alt=media"}}
+[debug] [2024-03-18T14:46:23.190Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast 200
+[debug] [2024-03-18T14:46:23.190Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-03-18T14:46:23.190Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast [none]
+[debug] [2024-03-18T14:46:23.190Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"specversion":"1.0","id":"c76030cf-31e4-4dc0-84ec-004d65fb37cf","type":"google.cloud.storage.object.v1.finalized","source":"//storage.googleapis.com/projects/_/buckets/audioland-dub-dev/objects/1ONhF46yI9DhGyGvuW9yZUGu8b0i/4Hlaf96UNlhRrzFp6aCc/test-video-1min.mp4","time":"2024-03-18T14:46:22.997Z","data":{"kind":"storage#object","name":"1ONhF46yI9DhGyGvuW9yZUGu8b0i/4Hlaf96UNlhRrzFp6aCc/test-video-1min.mp4","bucket":"audioland-dub-dev","generation":"1710773182997","metageneration":"1","contentType":"video/mp4","timeCreated":"2024-03-18T14:46:22.997Z","updated":"2024-03-18T14:46:22.997Z","storageClass":"STANDARD","size":"3096493","md5Hash":"FbdOqN+gJmQMyVE4ovSnyQ==","etag":"qqnBJeCyMQMpgc+XT8KSnXbIPeg","metadata":{"firebaseStorageDownloadTokens":"49770f76-0bed-4668-a51f-d10cf26eda6d"},"crc32c":"S7jSdA==","timeStorageClassUpdated":"2024-03-18T14:46:22.997Z","id":"audioland-dub-dev/1ONhF46yI9DhGyGvuW9yZUGu8b0i/4Hlaf96UNlhRrzFp6aCc/test-video-1min.mp4/1710773182997","selfLink":"http://127.0.0.1:9199/storage/v1/b/audioland-dub-dev/o/1ONhF46yI9DhGyGvuW9yZUGu8b0i%2F4Hlaf96UNlhRrzFp6aCc%2Ftest-video-1min.mp4","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/audioland-dub-dev/o/1ONhF46yI9DhGyGvuW9yZUGu8b0i%2F4Hlaf96UNlhRrzFp6aCc%2Ftest-video-1min.mp4?generation=1710773182997&alt=media"}}
+[debug] [2024-03-18T14:46:23.193Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast 200
+[debug] [2024-03-18T14:46:23.193Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/audioland-dub-dev/trigger_multicast {"status":"multicast_acknowledged"}
